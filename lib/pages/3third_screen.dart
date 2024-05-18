@@ -1,10 +1,11 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:icons_flutter/icons_flutter.dart';
 import 'package:login_password/pages/4fourth_screen.dart';
 
 class ThirdScreen extends StatefulWidget {
+  const ThirdScreen({super.key});
+
   @override
   State<ThirdScreen> createState() => _ThordScreenState();
 }
@@ -50,7 +51,7 @@ class _ThordScreenState extends State<ThirdScreen> {
                             fit: BoxFit.cover)),
                   ),
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 20,
                 ),
                 ElevatedButton(
@@ -73,7 +74,7 @@ class _ThordScreenState extends State<ThirdScreen> {
                         color: Colors.white),
                   ),
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 20,
                 ),
                 Row(
